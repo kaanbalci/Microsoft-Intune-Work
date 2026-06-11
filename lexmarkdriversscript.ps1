@@ -1,0 +1,1 @@
+﻿rundll32 printui.dll,PrintUIEntry /ia /m "Lexmark Universal v2" /h "x64" /v "Type 3 - User Mode" /f "C:\Users\Kaan\Desktop\Lexmark\InstallationPackage\DriverFiles\Lexmark\Lexmark Universal v2\Drivers\Print\GDI\LMUD1o40.inf"
