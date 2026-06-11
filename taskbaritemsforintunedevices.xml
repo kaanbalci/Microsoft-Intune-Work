@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LayoutModificationTemplate
+    xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification"
+    xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout"
+    xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout"
+    xmlns:taskbar="http://schemas.microsoft.com/Start/2014/TaskbarLayout"
+    Version="1">
+  <CustomTaskbarLayoutCollection PinListPlacement="Replace">
+    <defaultlayout:TaskbarLayout>
+      <taskbar:TaskbarPinList>
+		<taskbar:UWA AppUserModelID="Microsoft.Windows.Explorer" />
+		<taskbar:UWA AppUserModelID="Chrome" />
+		<taskbar:UWA AppUserModelID="Microsoft.Office.OUTLOOK.EXE.15" />
+		<taskbar:UWA AppUserModelID="com.ringcentral.glip" />
+		<taskbar:UWA AppUserModelID="Cisco.SecureClient" />
+		<taskbar:UWA AppUserModelID="Microsoft.SkyDrive.Desktop" />
+		<taskbar:UWA AppUserModelID="com.squirrel.Teams.Teams" />
+		<taskbar:UWA AppUserModelID="Microsoft.Office.EXCEL.EXE.15" />
+        <taskbar:UWA AppUserModelID="Microsoft.Office.Word_8wekyb3d8bbwe!microsoft.word" />
+      </taskbar:TaskbarPinList>
+    </defaultlayout:TaskbarLayout>
+  </CustomTaskbarLayoutCollection>
+</LayoutModificationTemplate>
