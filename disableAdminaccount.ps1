@@ -1,0 +1,1 @@
+Invoke-Expression -Command "net user administrator /active:no"
